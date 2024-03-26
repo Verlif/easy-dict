@@ -2,6 +2,9 @@ package idea.verlif.easy.dict;
 
 import idea.verlif.easy.dict.map.HashMapDictItem;
 
+/**
+ * 可缓存的字典
+ */
 public class CachedEasyDict extends EasyDict {
 
     private final HashMapDictItem cacheDict;
